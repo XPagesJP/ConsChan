@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><note class="form" maintenanceversion="1.9" replicaid="492581F10007CBB5" version="9.0" xmlns="http://www.lotus.com/dxl">
+<noteinfo noteid="2f2" sequence="34" unid="B409FD4C0AC63FCC4925801700392870">
+<created><datetime>20160822T192419,04+09</datetime></created>
+<modified><datetime>20180121T000933,47+09</datetime></modified>
+<revised><datetime>20171209T103028,54+09</datetime></revised>
+<lastaccessed><datetime>20180121T000933,46+09</datetime></lastaccessed>
+<addedtofile><datetime>20180121T000933,46+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=admin user/O=kazzwachi</name><name>CN=kazzwachi_gmail_com/O=Bluemix</name><name>CN=Surface Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Surface Administrator/O=EFLAB</name></wassignedby>
+<item name="$TITLE"><text>tweet.xsp</text></item>
+<item name="$Flags"><text>gC~4K</text></item>
+
+
+
+
+
+<item name="$FileNames" sign="true"><text>tweet.xsp</text></item>
+<item name="$DesignerVersion"><text>8.5</text></item>
+
+</note>

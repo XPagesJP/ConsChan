@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" rendered="false">
+
+	<xp:this.afterRenderResponse><![CDATA[#{javascript:try{
+	var response:com.ibm.xsp.webapp.XspHttpServletResponse = facesContext.getExternalContext().getResponse(),
+		writer = facesContext.getResponseWriter(),
+		msg = {};
+	response.setCharacterEncoding("UTF-8");
+	response.setContentType("application/json");
+	response.setHeader("Cache-Control","no-cache");
+	response.setHeader("Access-Control-Allow-Origin","*");
+	response.setHeader("Access-Control-Allow-Methods","GET");
+
+	if(bluemixContext.isRunningOnBluemix()){
+		var xurl:XSPUrl = new XSPUrl(""),
+			dataService:com.ibm.xsp.bluemix.util.context.DataService
+			 = bluemixContext.getDataServiceByName("IBM XPages NoSQL Database-53"),
+			dsHost:String = dataService.getHost(),
+			dsPath:String = dataService.getAppPath(),
+			xurl:XSPUrl = new XSPUrl("");
+		xurl.setScheme("https");
+		xurl.setHost(dsHost);
+		xurl.setPath(dsPath+"/api/data/documents");
+		msg.url = xurl.toString();
+		response.setStatus(response.SC_OK);
+		writer.write(toJson(msg));
+	}else{
+		response.setStatus(response.SC_NO_CONTENT);
+	}
+}catch(e){
+	response.setStatus(response.SC_INTERNAL_SERVER_ERROR);
+}finally{
+	facesContext.responseComplete();
+}
+
+
+}]]></xp:this.afterRenderResponse></xp:view>

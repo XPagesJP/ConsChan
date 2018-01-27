@@ -1,0 +1,36 @@
+.moreInfoBox{ 
+	border-right: 3px solid #ffffff; 
+}
+@media (max-width: 992px) { 
+	.moreInfoBox{ 
+		border-right: none;
+		padding-bottom: 15px; 
+	} 
+}
+.imageLeft {
+	margin-right:100px;
+}
+.imageRight {
+	margin-left:100px;
+}
+*[dir="rtl"] .imageRight{
+	margin-right:100px;
+}
+*[dir="rtl"] .imageLeft{
+	margin-left:100px;
+}
+@media (max-width: 768px) {
+	.imageLeft {
+		margin-right:20px;
+	}
+	.imageRight {
+		margin-left:20px;
+	}
+}
+.mainPanel {
+	text-align:center;
+	margin-top:20px;
+	padding:20px;
+	background-color:#eeeeee;
+	border-radius:10px 10px 0px 0px;
+}

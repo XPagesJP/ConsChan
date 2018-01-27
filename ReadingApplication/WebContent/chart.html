@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>temparture & humidity</title>
+    </head>
+    <body>
+        <div>
+            <canvas id="chart_t"></canvas>
+        </div>
+        <div>
+            <canvas id="chart_h"></canvas>
+        </div>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.15.1/moment.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.6/moment-timezone.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.3.0/Chart.min.js"></script>
+        <script src="js/chartPage.js"></script>
+        <script>
+        $(function(){
+            thisPage.readData();
+        });
+        </script>
+    </body>
+</html>

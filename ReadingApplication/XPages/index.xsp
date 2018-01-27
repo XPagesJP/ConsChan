@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core" viewState="nostate"
+	pageTitle="IBM XPages Application on IBM Bluemix">
+	<xp:this.data>
+		<xp:dominoView viewName="tweets" var="vwTweets">
+			<xp:this.databaseName><![CDATA[#{javascript:
+				/*
+				if(bluemixContext.isRunningOnBluemix()){
+					return bluemixContext.getDataService().findDatabaseName();
+				}else{
+					return "xpages/sample002.nsf";
+				}
+				*/
+				var vwConfig:NotesView = database.getView( "vwConfig" );
+				var docConfig:NotesDocument = vwConfig.getFirstDocument();
+				docConfig.getItemValueString( "masterdbServer" )+"!!"+docConfig.getItemValueString( "masterdbPath" );
+			}]]></xp:this.databaseName>
+		</xp:dominoView>
+	</xp:this.data>
+	<div class="container-fluid">
+		<div class="jumbotron">
+			<h1>Twitter -> Domino</h1>
+			<table class="table table-striped table-hover table-condensed">
+				<thead>
+					<tr>
+						<th>created_at</th>
+						<th>tweet</th>
+						<th>btn</th>
+					</tr>
+				</thead>
+				<xp:pager layout="Previous Group Next" partialRefresh="true"
+					id="pager1" for="repeat1">
+				</xp:pager>
+				<tbody>
+					<xp:repeat id="repeat1" rows="40" value="#{vwTweets}"
+						var="rowData" indexVar="rowIndex">
+						<tr>
+							<td>
+								<xp:inputText id="inputText1" value="#{rowData.created_at}">
+									<xp:dateTimeHelper id="dateTimeHelper1">
+									</xp:dateTimeHelper>
+									<xp:this.converter>
+										<xp:convertDateTime type="date" timeZone="JST">
+										</xp:convertDateTime>
+									</xp:this.converter>
+								</xp:inputText>
+							</td>
+							<td>
+								<xp:inputText id="inputText2" value="#{rowData.text}">
+								</xp:inputText>
+							</td>
+							<td>
+								<xp:button value="再生" id="button1">
+									<xp:eventHandler event="onclick" submit="false">
+										<xp:this.script><![CDATA[
+											var x = document.getElementById("#{id:inputText2}").innerHTML;
+											var url = ' https://[ユーザー名]:[パスワード]@stream.watsonplatform.net/text-to-speech/api/v1/synthesize?voice=ja-JP_EmiVoice&text= '+x;
+											var element_audio = document.getElementById("audio_01");
+							        		// URL アドレスをセット
+    							    		element_audio.src = url;
+ 								       		// 読み込み開始
+							        		element_audio.load();]]></xp:this.script>
+									</xp:eventHandler>
+								</xp:button>
+							</td>
+						</tr>
+					</xp:repeat>
+				</tbody>
+			</table>
+		</div>
+	</div>
+	<audio id="audio_01" controls="controls" autoplay="autoplay"
+		style="width:100%;">
+	</audio>
+</xp:view>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xp:view xmlns:xp="http://www.ibm.com/xsp/core">
+	<xp:this.data>
+		<xp:dominoDocument formName="tweet" var="tweet"
+			action="openDocument">
+			<xp:this.databaseName><![CDATA[#{javascript:if(bluemixContext.isRunningOnBluemix()){
+	return bluemixContext.getDataService().findDatabaseName();
+}else{
+	return "XPages/sample002.nsf";
+}}]]></xp:this.databaseName>
+		</xp:dominoDocument>
+	</xp:this.data>
+	<div class="container-fluid">
+		<div class="jumbotron">
+			<div class="panel panel-default">
+				<div class="panel-heading">
+					<h3>Twitter -> Domino</h3>
+				</div>
+				<div class="panel-body">
+					<xp:table>
+						<xp:tr>
+							<xp:td>
+								<xp:label value="Created_at:" id="created_at_Label1"
+									for="created_at1">
+								</xp:label>
+							</xp:td>
+							<xp:td>
+								<xp:inputText value="#{tweet.created_at}" id="created_at1">
+									<xp:dateTimeHelper id="dateTimeHelper1"></xp:dateTimeHelper>
+									<xp:this.converter>
+										<xp:convertDateTime type="both" dateStyle="medium"
+											timeStyle="medium" timeZone="JST">
+										</xp:convertDateTime>
+									</xp:this.converter>
+								</xp:inputText>
+							</xp:td>
+						</xp:tr>
+						<xp:tr>
+							<xp:td>
+								<xp:label value="Text:" id="text_Label1" for="text1"></xp:label>
+							</xp:td>
+							<xp:td>
+								<xp:inputText value="#{tweet.text}" id="text1"></xp:inputText>
+							</xp:td>
+						</xp:tr>
+					</xp:table>
+					<xp:button value="Cancel" id="button1"><xp:eventHandler event="onclick" submit="true" refreshMode="complete">
+	<xp:this.action>
+		<xp:openPage name="/index.xsp"></xp:openPage>
+	</xp:this.action></xp:eventHandler></xp:button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	</xp:view>

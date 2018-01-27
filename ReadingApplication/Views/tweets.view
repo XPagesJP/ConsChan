@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note default='true' class='view' xmlns='http://www.lotus.com/dxl' version='9.0'
+ maintenanceversion='1.9' replicaid='492581F10007CBB5'>
+<noteinfo noteid='24a' unid='91D3C44699C3F49949257FFA003E715D' sequence='7'>
+<created><datetime>20160724T202202,53+09</datetime></created>
+<modified><datetime>20180127T124857,48+09</datetime></modified>
+<revised><datetime>20180127T124857,47+09</datetime></revised>
+<lastaccessed><datetime>20180127T124857,47+09</datetime></lastaccessed>
+<addedtofile><datetime>20180121T000932,62+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=kazzwachi_gmail_com/O=Bluemix</name><name>CN=Surface Administrator/O=EFLAB</name><name
+>CN=Domino Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Surface Administrator/O=EFLAB</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>tweets</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+ZgACAAwAAgAkMmkAAwAFADAAKwAFAAIACgAEAAkABAAkMmNyZWF0ZWRfYXR0ZXh0JENvbmZsaWN0
+JFJFRgAEAAQAAAAaAAUABABmb3JtAQAFAHR3ZWV0AAoCAwAHAAoABAAJTDFT
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+DwABAABEgWYAAAACACQy
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQADAAMACAAAAFZDBQACAAcADgAAAFAAAQAACgAAAAAAAAAAAAICAAAAVkMAAAoACgAAAAAAUAAB
+AAAKAAAAAAAAAAAAAgIAAABWQwAABAAEAAAAAABQAAEAAAoAAAAAAAAAAAACAgAAACQyY3JlYXRl
+ZA4AAgAMAAIAJDJpAAMAY3JlYXRlZF9hdGNyZWF0ZWRfYXR0ZXh0dGV4dCYAAQAAAAEBAAkBAAAK
+AQEOCgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAA//8A
+AAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//AAAAAAAAAAAAAAAA
+AABXQwEBAAkAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAD//wAAAAAAAAAAAAAAAAAAQgAAAAAAAQD/
+//8ABQD///8AAQAAAAAAAAAAAAAAAAABAP///wABAP///wAAAAEAAAAAAAEAAAAAAAEAAAAAAAAA
+CAAAAAAAAQA=
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$DesignerVersion' sign='true'><text>8.5.3</text></item>
+<item name='$Flags'><text>Yd</text></item></note>
+

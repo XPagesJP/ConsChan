@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='view' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.9'
+ replicaid='492581F10007CBB5'>
+<noteinfo noteid='326' unid='418FB5992C6104B649258222001580B0' sequence='9'>
+<created><datetime>20180127T125452,00+09</datetime></created>
+<modified><datetime>20180127T125642,36+09</datetime></modified>
+<revised><datetime>20180127T125642,35+09</datetime></revised>
+<lastaccessed><datetime>20180127T125656,60+09</datetime></lastaccessed>
+<addedtofile><datetime>20180127T125451,98+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
+<item name='$FormulaClass' sign='true'><text>1</text></item>
+<item name='$TITLE' sign='true'><text>vwConfig</text></item>
+<item name='$Index' sign='true'><text/></item>
+<item name='$Formula' summary='true' sign='true'><formula compiled='true'>
+LgAFACAAGwADAAQACQAEAEZvcm0kQ29uZmxpY3QkUkVGAAQABAAAAAgAZgADAA==
+</formula></item>
+<item name='$Collation' summary='true'>
+<rawitemdata type='2'>
+EQABAABEAGYAAAAEAEZvcm0=
+</rawitemdata></item>
+<item name='$ViewFormat' summary='true' sign='true'>
+<rawitemdata type='5'>
+AQACAAEACAAAAFZDCQAEAAAAAAAAAFAAAQAACgAAAAAAAAAAAAICAAAAVkMAAAIAAABQAEUAfgEB
+AAAKAAAAAAAAAAAAAgIAAABGb3JtJDFQAAIATgACACQxAQA/ABCKwhCLqxCQ3RCS6BCVthCPkRCB
+aRCCsRCCzBCVthCPkRCC8BCV0hCPVxCCtRCCxBCCrRCCvhCCsxCCohCBagADAAEFAQA/ABCKwhCL
+qxCQ3RCS6BCVthCPkRCBaRCCsRCCzBCVthCPkRCC8BCV0hCPVxCCtRCCxBCCrRCCvhCCsxCCohCB
+aiYAAQAAAAEBAAkBAAAKAQEOCgAAAQCtKwEAAQABAAAAAAAAAAAAV0MBAQAJAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAA//8AAAAAAAAAAAAAAAAAAFdDAQEACQAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA
+AP//AAAAAAAAAAAAAAAAAABCAAAAAAABAP///wAFAP///wABAAAAAAAAAAAAAAAAAAEA////AAEA
+////AAAAAQAAAAAAAQAAAAAAAQAAAAAAAAAIAAAAAAABAA==
+</rawitemdata></item>
+<item name='$Comment' sign='true'><text/></item>
+<item name='$Flags'><text>Y</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item>
+<item name='$V5ACTIONS' sign='true'>
+<rawitemdata type='1'>
+vRw/AAAAAQABAAAACAAAAAAAAAAAAAAACAACAHn/bAABAO/v7wABAAAAAAAJAAAAAAABAO/v7wAA
+AB8AAAAAAAAAAAADAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAPz/OgAAAAAAAQAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAA
+AAAAAAAAAAEAAAAAAAAAAAAAAAAAAAC+/0AAAAABAHAAngEAAAkAAAAAAAAAEJXCEIK2EILpACAA
+AAASAAIA/BEAAAAAAADtAQMABwAMAAUACTBTMEUAvv/cAAAAAQAFAJ4BAAAbAAAAAAAAABCKwhCL
+qxCQ3RCS6BCVthCPkRCCzBCV0hCPVwCqAAEAPgADAHRtcAABAAUATm90ZXMAAQAHAE5vQ2FjaGUA
+HwKLAAEACAB2d0NvbmZpZwAAAAAAAAAA8D+qBAMABwAMAAUACTFTMlMAAABUAAUAAwB0bXAAAQAA
+AAoCBQADAHRtcABaAR0CrwAyAB4AAgDoAwAAAAAAAAEACABmbUNvbmZpZ+0CrgAUAAIA6AcAAAAA
+AADtAa4ABAC1AwMABwAKAAMACTBSAA==
+</rawitemdata></item></note>
+

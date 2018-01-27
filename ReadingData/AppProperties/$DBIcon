@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='utf-8'?>
+<note class='form' xmlns='http://www.lotus.com/dxl' version='9.0' maintenanceversion='1.9'
+ replicaid='492581F10007DB1C'>
+<noteinfo noteid='19a' unid='3E19E64FDAEA59B449258222001426B5' sequence='1'>
+<created><datetime>20180127T124006,29+09</datetime></created>
+<modified><datetime>20180127T124006,31+09</datetime></modified>
+<revised><datetime>20180127T124006,30+09</datetime></revised>
+<lastaccessed><datetime>20180127T124006,30+09</datetime></lastaccessed>
+<addedtofile><datetime>20180127T124006,30+09</datetime></addedtofile></noteinfo>
+<updatedby><name>CN=Domino Administrator/O=EFLAB</name></updatedby>
+<wassignedby><name>CN=Domino Administrator/O=EFLAB</name></wassignedby>
+<item name='$TITLE'><text>$DBIcon</text></item>
+<item name='$Flags'><text>34Ci~Q</text></item>
+<item name='$ImagesWide' sign='true'><number>1</number></item>
+<item name='$ImagesHigh' sign='true'><number>1</number></item>
+<item name='$ImagesColorize' sign='true'><number>0</number></item>
+<item name='$FileSize' sign='true'><number>1272</number></item>
+<item name='$ImageData' sign='true'>
+<rawitemdata type='1'>
+mQAcAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAH0AHAAAAAIAAAAAAPgEAAABAAAAAQAAAAAAAAB8
+AAIFAAD4BPgEiVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAA
+AARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAASNSURBVFhHxZZ9TJVVHMcvb4K8
+XuDeyxUJvJor3ZivGPEyZqEJyngZ0xrljJggMabFKrMXrCybXi0sTTZxyzbb2nhTWo68xnhxg2BI
+Cg6bLwmUU/4DBpb9Or8vPof7cB/w3tVuf3zu8/t9n9855/ucc57zXB0R/a9oiu5EU3QnmqI70RT/
+LadOVtHxL78QofZ9ezRFV/nJdl5cpvIA0a1OEBWmp6t9vap709EUXWH10icpOW6VCNV6aVEheT40
+Unl05tnQFJ3hzp0/yBToT6FzvCk7bYOQJvWqyuM0PDyM/Ndr/aT38YKJz60HZY09DoIz1NfUkI9o
+Gm0Io0h9sDQwNDSIwZi97+yB9rf4Mfj7QmttboZmjypxhl0lxTRHNLNEGGmh2aQywDRduEDzQoLI
+W9RsTH0G+r27d5EHe3nIOgVV8igSVizDlFoiTPRYeKg0kJuxSdwm3Ufvv4cr8/TyZRi0uOAVaJ8d
+PIB8d9nrsoaRAfPXgwfiMpUr3LxxA+ttDg7Ek4d4e9K65ERhQg8DW7dspspjRzHNQZ46Grh9WzQj
+3eKoSGiXey4hNwb4kS+GnOpbBvXV1SieqwF3GiPWe4HJQF4iP1H5Ff0+NIQpZQM56WmiC9IdPvAp
+nlIZZGhwck8krlyB/OO95XgzztTWImekgR8aGjC9PK0Wk5FijOEqeCB/Ud7V+TMad7Z3SAP2e+D0
+N6dgMivtOWipSQkwcf/P+/TbrVvkIeLignxZLw2ce2iAB7dEGGhRpBlmGDYQ+/hCmpiYkA0729s1
+DTArlzyBQTn+uuoEnvq7b08j5w0cvzwWMSMbKQbMwQFUWrRdFszEbAas+z/Bk3Z2dFDflSuI94np
+53vR4mGixAZWamUjewM78l+WBTMxm4GT4jDiQc83nqOb168jfvetN1CzZEE0hfv7IWZkI8XA/NAQ
+yt2UTt1dXdTc1ASabDZxpvfJRsxsBna+ugNLwGveJg4fNlBhtaLGIAZfPH8eYkY2UgzwmrOJEG8P
+SbCAO9n/4Qey4WwG+K3hvjgu3/M22l5sa0XO8cZn1yJmZKOGujqccPyuT4e/avz+B3roKGN9Khr3
+dHdrGlgbvwZvwbEjFdDMQQHkh2FIZ/uxERtyX/nUgSUNXO7poS3ZmVTw0osqivK3UdLqVfjosAmj
+mMLYRRZqa2mhMF8fGHg+OwuHT7QxDOfAuuQEDHDk8CHkZaUlyDdnZmBprvX3I2ekgUfx5q6d+ABZ
+xGHEx7Bhri8MsYH8vDwq3LYVnfP6c/3V3l4MHiiWg/OxsTEsxVJLDHIFGTjD92fPwAQbsP8Y5aSn
+i9ukGxkZwfVsXS2Wkw39cmnyGE55Kg4GbI2NyBVUAzjD8PA97IsIsbaKAfs9UFK4HQPz019sbYHO
+RzDnqUmJsk5BlbhCSnwcPkqR+iCVAf5Dwsfv+Pg4tIpDVmw8/k+g1NjjILjC7rLX8LSZG9aL1PH+
+CzlZeCN4A4+OjgrJscZBcJX6mmpKWRMnQrWel5sDc/wNmX7PHk3xv2BwYMCpv+aaojvRFN2JpuhO
+NEX3Qbp/AJeNcPnbgkSMAAAAAElFTkSuQmCC
+</rawitemdata></item>
+<item name='$MimeType' sign='true'><text>image/png</text></item>
+<item name='$FileModDT' sign='true'><datetime>20180127T123943,69+09</datetime></item>
+<item name='$ImageNames' sign='true'><text>D:\Users\m.miyo\Desktop\favicon.png</text></item>
+<item name='$DesignerVersion'><text>8.5.3</text></item></note>
+
